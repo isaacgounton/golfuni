@@ -128,12 +128,6 @@ body {
   text-align: center;
 }
 
-.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #0062cc;
-  border-color: #005cbf;
-}
-
 #scolarite {
   width: 100%;
   height: 100vh;
@@ -156,15 +150,9 @@ body {
 }
 
 #team-row .reserve-button {
-  color: #000;
   background-color: rgba(0,98,204,0);
   border: 3px solid #070707;
   border-radius: 30px;
-}
-
-#team-row .btn.btn-link.btn-block.arrow-button {
-  color: #000;
-  font-size: 32px;
 }
 
 #team-row .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
