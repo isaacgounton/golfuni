@@ -155,6 +155,24 @@ body {
   height: 100vh;
 }
 
+#team-row .reserve-button {
+  color: #000;
+  background-color: rgba(0,98,204,0);
+  border: 3px solid #070707;
+  border-radius: 30px;
+}
+
+#team-row .btn.btn-link.btn-block.arrow-button {
+  color: #000;
+  font-size: 32px;
+}
+
+#team-row .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #000;
+  background-color: #0062cc;
+  border-color: #005cbf;
+}
+
 /* Team */
 
 body {
@@ -224,6 +242,31 @@ body {
 }
 
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
-  color: rgba(255,255,255,0.9);
+  color: rgba(255,0,0,0.9);
 }
+
+/* ABOUT */
+
+#aboutus {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+}
+
+@media (min-width: 768px) {
+  #aboutus {
+    background-color: white;
+  }
+}
+
+#aboutus-bottom {
+  color: #fff;
+}
+
+#aboutus-bottom .container {
+  max-width: 700px;
+  text-align: center;
+}
+
+/* ABOUT */
 
