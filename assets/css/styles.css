@@ -1,3 +1,5 @@
+/* Scroll */
+
 html {
   scroll-behavior: smooth;
 }
@@ -8,10 +10,14 @@ html {
   }
 }
 
+/* Body */
+
 body {
   background-color: rgb(255,255,255);
   color: rgb(0,0,0);
 }
+
+/* Acceuil */
 
 #acceuil {
   width: 100%;
@@ -28,6 +34,8 @@ body {
     background-image: url("../../assets/img/acceuil.jpg");
   }
 }
+
+/* Navigation */
 
 .navbar-light .navbar-brand {
   background-image: url("../../assets/img/logo.png");
@@ -49,6 +57,8 @@ body {
   color: #222;
   padding: 10px;
 }
+
+/* Acceuil title */
 
 #title {
   font-family: Montserrat, sans-serif;
@@ -79,6 +89,8 @@ body {
   font-weight: 100;
 }
 
+/* Acceuil button */
+
 .reserve-button:hover, .reserve-button:focus, .reserve-button:active {
   background-color: rgba(0,98,204,0) !important;
   border: 3px solid #fff !important;
@@ -107,6 +119,8 @@ body {
   border-bottom: 0;
 }
 
+/* Golf */
+
 #golf {
   width: 100%;
   height: 100vh;
@@ -128,6 +142,20 @@ body {
   text-align: center;
 }
 
+#golf-row .reserve-button {
+  background-color: rgba(0,98,204,0);
+  border: 3px solid #070707;
+  border-radius: 30px;
+}
+
+#golf-row .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #000;
+  background-color: #0062cc;
+  border-color: #005cbf;
+}
+
+/* SCOLARITE */
+
 #scolarite {
   width: 100%;
   height: 100vh;
@@ -143,6 +171,29 @@ body {
     background-image: url("../../assets/img/scolarite.jpg");
   }
 }
+
+#scolarite-bottom {
+  color: #fff;
+}
+
+#scolarite-bottom .container {
+  max-width: 600px;
+  text-align: center;
+}
+
+#scolarite-row .reserve-button {
+  background-color: rgba(0,98,204,0);
+  border: 3px solid #fff;
+  border-radius: 30px;
+}
+
+#scolarite-row .btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show > .btn-primary.dropdown-toggle {
+  color: #fff;
+  background-color: #0062cc;
+  border-color: #005cbf;
+}
+
+/* Team */
 
 #team {
   width: 100%;
@@ -161,7 +212,7 @@ body {
   border-color: #005cbf;
 }
 
-/* Team */
+/* Team Custom section */
 
 body {
   margin-top: 12px;
@@ -233,7 +284,7 @@ body {
   color: rgba(255,0,0,0.9);
 }
 
-/* ABOUT */
+/* ABOUT US PAGE */
 
 #aboutus {
   width: 100%;
@@ -255,6 +306,4 @@ body {
   max-width: 700px;
   text-align: center;
 }
-
-/* ABOUT */
 
